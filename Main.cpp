@@ -34,7 +34,7 @@ int main(int argc, char** argv){
     if(action == 'w'){
       c[cache]->Write(line);
     }
-        for(auto it = c.begin(); it != c.end(); it++) cout << (*it)->to_string() << endl;
+    for(auto it = c.begin(); it != c.end(); it++) cout << (*it)->to_string() << endl; //prints the Caches
   }
   
   
